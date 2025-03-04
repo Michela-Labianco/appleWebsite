@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="shortcut icon" href="/images/Icons/home-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <section class="section-1" id="home">
+            <a href="#home" class="logo">
+                <i class="fab fa-apple"></i>
+            </a>
+            <nav class="navbar">
+                <a href="#iphone" class="navbar-link">iPhone 12</a>
+                <a href="#macbook" class="navbar-link">MacBook Air</a>
+                <a href="#watch" class="navbar-link">Watch</a>
+                <a href="#airpods" class="navbar-link">AirPods</a>
+            </nav>
+            <div class="cube-wrapper">
+                <div class="cube">
+                    <div class="front-side">
+                        <img src="/images/iphone.png">
+                    </div>
+                    <div class="back-side center">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <a href="#" class="top-x-control">
+                        <i class="fas fa-arrow-up"></i> 
+                        <!-- add another class because we will rotate the cube according to the X direction with this icon -->
+                    </a>
+                    <a href="#" class="bottom-x-control">
+                        <i class="fas fa-arrow-down"></i> 
+                    </a>
+                    <a href="#" class="left-y-control">
+                        <i class="fas fa-arrow-left"></i> 
+                    </a>
+                    <a href="#" class="right-y-control">
+                        <i class="fas fa-arrow-right"></i> 
+                    </a>
+                    <a href="#" class="top-z-control">
+                        <i class="fas fa-arrow-down"></i> 
+                    </a>
+                    <a href="#" class="bottom-z-control">
+                        <i class="fas fa-arrow-up"></i> 
+                    </a>
+                </div>
+            </div>
+            <div class="section-1-banner center">
+                <h1>&#8592;Best Gift</h1>
+                <p>"Creativity is just connecting things."</p>
+                <span>- Steve Jobs</span>
+                <button type="button">Buy Now</button>
+            </div>
+            <div class="slide-show"></div>
+            <!-- a div for the slide show with the images -> check script.js -->
+        </section>
+        <section class="section-2" id="iphone">
+            <h1 class="section-2-heading">iPhone 12</h1>
+            <div class="images">
+                <img class="iphone-img-1" src="/images/iPhones/iphones-1-img.png">
+                <img class="iphone-img-2" src="/images/iPhones/iphones-2-img.png">
+            </div>
+            <div class="btn-wrapper">
+                <a href="#" class="iphone-btn center">
+                    <span>Learn more</span>
+                </a>
+                <a href="#" class="iphone-btn center">
+                    <span>Shop</span>
+                </a>
+            </div>
+        </section>
+        <section class="section-3 center" id="macbook">
+            <h1 class="section-3-heading">MacBook Air</h1>
+            <div class="section-3-content center"> 
+                <!-- align items in the center using flex box and the class center (common styles) -->
+                <img src="/images/MacBook/macbook-screen.png" class="macbook-img-1">
+                <img src="/images/MacBook/macbook-keyboard.png" class="macbook-img-2">
+                <div class="loading-wrapper">
+                    <div class="loading center">
+                        <i class="fab fa-apple"></i>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="macbook-info">
+                    <h2 class="macbook-info-heading">Light. Speed.</h2>
+                    <p class="macbook-price">Starting at $999</p>
+                    <button class="macbook-btn">Buy now</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-4 center" id="watch">
+            <div class="watches center">
+                <div class="bands center">
+                    <img src="/images/watches/watch-band-1.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-2.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-3.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-4.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-5.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-6.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-7.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-8.jpg" class="watch-band-img">
+                    <img src="/images/watches/watch-band-9.jpg" class="watch-band-img">
+                </div>
+                <div class="cases center">
+                    <img src="/images/watches/watch-case-1.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-2.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-3.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-4.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-5.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-6.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-7.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-8.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-9.png" class="watch-case-img">
+                    <img src="/images/watches/watch-case-10.png" class="watch-case-img">
+                </div>
+            </div>
+            <a href="#" class="watch-controls watch-top-control center">
+                <i class="fas fa-angle-up"></i>
+            </a>
+            <a href="#" class="watch-controls watch-right-control center">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            <a href="#" class="watch-controls watch-bottom-control center">
+                <i class="fas fa-angle-down"></i>
+            </a>
+            <a href="#" class="watch-controls watch-left-control center">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <button class="watch-btn">Buy Now</button>
+        </section>
+        <section class="section-5 center" id="airpods">
+            <div class="airpods">
+                <h1 class="section-5-heading">AirPods</h1>
+                <img src="/images/AirPods/airpods-1.png" class="airpods-img-1">
+                <img src="/images/AirPods/airpods-2.png" class="airpods-img-2">
+                <div class="airpods-btns">
+                    <button class="airpods-btn">Learn More</button>
+                    <button class="airpods-btn">Buy</button>
+                </div>
+            </div>
+        </section>
+        <section class="footer center">
+            <div class="items">
+                <a href="#home" class="icon-link">
+                    <img src="/images/Icons/home-icon.png">
+                </a>
+                <a href="#iphone" class="icon-link">
+                    <img src="/images/Icons/iphone-icon.png">
+                </a>
+                <a href="#macbook" class="icon-link">
+                    <img src="/images/Icons/macbook-icon.png">
+                </a>
+                <a href="#watch" class="icon-link">
+                    <img src="/images/Icons/watch-icon.png">
+                </a>
+                <a href="#airpods" class="icon-link">
+                    <img src="/images/Icons/airpods-icon.png">
+                </a>
+            </div>
+            <p class="copyright">Copyright &copy; All rights reserved</p>
+        </section>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
